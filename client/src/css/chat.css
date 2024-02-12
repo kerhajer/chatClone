@@ -1,0 +1,113 @@
+
+
+.sidemenu{
+    width: 260px;
+    padding: 10px;
+    background-color: #202123;
+}
+.side-menu-button {
+    padding:12px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: left;
+ transition: ease 0.25s all;
+}
+.side-menu-button:hover{
+    background-color: rgba(255,255,255,0.1);
+}
+
+
+
+
+
+.chathome{
+text-align: center;
+display: flex;
+background-color: #282c34;
+color:white;
+position:absolute;
+top:0;bottom: 0;right: 0;left: 0;
+}
+
+.sidemenu{
+    width: 260px;
+    padding: 10px;
+    background-color: #202123;
+}
+.side-menu-button {
+    padding:12px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: left;
+ transition: ease 0.25s all;
+}
+.side-menu-button:hover{
+    background-color: rgba(255,255,255,0.1);
+}
+
+
+
+.chat-log{
+text-align: left;
+
+}
+
+
+.chatbox {
+    flex: 1;
+    background-color: #343541;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column; 
+  }
+  .chat-input-holder {
+    padding: 24px;
+    bottom: 0;
+    right: 0px; /* Adjust the right spacing as needed */
+    left: 260px;
+    order: 4; /* Set a higher order to move the input below the chat log */
+  }
+  
+  .chat-input-textarea {
+    width: calc(100% - 20px);
+    background-color: #40414f;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin: 12px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0, 5);
+    padding: 12px;
+    color: white;
+  }
+
+
+.chat-message.gpt{
+    background-color:#444654;
+  
+
+}
+.chat-message-center{
+    display: flex;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 12px;
+padding-left :24px ;
+padding-right: 24px;
+}
+.avatar{
+border-radius: 50%;
+width:42px;
+height: 42px;
+}
+.avatargpt{
+    background-color: #0da37f;
+    border-radius: 50%;
+    width:42px;
+    height: 42px;
+    }
+.message{
+    padding-left :40px ;
+padding-right: 40px;
+}
